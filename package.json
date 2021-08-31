@@ -1,0 +1,24 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "package for storing postmans tests",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "newman run postmantest.postman_collection.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratna-tech/test.git"
+  },
+  "author": "Ratna",
+  "bugs": {
+    "url": "https://github.com/ratna-tech/test/issues"
+  },
+  "homepage": "https://github.com/ratna-tech/test#readme",
+  "dependencies": {
+    "newman": "^5.2.4"
+  }
+}
