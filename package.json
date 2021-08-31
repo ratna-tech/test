@@ -7,17 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "newman run postmantest.postman_collection.json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ratna-tech/test.git"
+    "test-postman pipeline": "newman run postmantest.postman_collection.json"
   },
   "author": "Ratna",
-  "bugs": {
-    "url": "https://github.com/ratna-tech/test/issues"
-  },
-  "homepage": "https://github.com/ratna-tech/test#readme",
   "dependencies": {
     "newman": "^5.2.4"
   }
