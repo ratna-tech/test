@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test-postman pipeline": "newman run postmantest.postman_collection.json"
+    "test-postman-pipeline": "newman run postmantest.postman_collection.json"
   },
   "author": "Ratna",
   "dependencies": {
